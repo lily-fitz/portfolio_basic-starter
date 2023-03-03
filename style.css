@@ -1,0 +1,158 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --fs-h1: clamp(2.25rem, 5vw, 5rem);
+  --fs-h2: clamp(2rem, 4.25vw, 4rem);
+  --fs-h3: clamp(1.5rem, 2.75vw, 3.25rem);
+  /* add a pirmary accent color */
+  /* create two border-radius variables, one for button & one for images */
+}
+
+/* reset box-sizing to border-box */
+
+/* add smooth scrolling */
+
+/* remove body margins, use imported font, set font-size to 15px */
+
+/* reduce line-height on larger headings */
+
+/* remove margins & padding from headings, lists, paragraphs */
+
+/* remove underline from links */
+
+/* set up container for small screen sizes, make sure it's centered in the page */
+
+/* add a breakpoint at 54rem, change container width for larger screen sizes */
+
+/* --------------------------- */
+/* Accessibility */
+/* --------------------------- */
+
+/* skip to content link */
+
+.skip-to-content {
+  position: absolute;
+  z-index: 9999;
+  background-color: transparent;
+  color: black;
+  margin-inline: auto;
+  font-size: 0.875rem;
+  transform: translateY(-150%);
+}
+
+.skip-to-content:focus {
+  transform: translateY(0);
+  transition: transform 250ms ease-in;
+  background-color: transparent;
+  color: black;
+}
+
+/* --------------------------- */
+/* Typography */
+/* --------------------------- */
+
+/* use the H1-H3 font size variables in the root */
+
+/* --------------------------- */
+/* Header */
+/* --------------------------- */
+
+/* turn header into a flexbox, position logo & nav list on opposite sides of the page, add top/bottom padding & a border on top */
+
+/* turn navigation list into a flexbox, remove list style */
+
+/* remove default styling from navigation links */
+
+/* style hover & focus states for navigation links */
+
+/* style the last navigation item to look like a button, use the button border-radius variable create in the root, add a transition for bg color */
+
+/* style hover & focus states for the last navigation item */
+
+/* style the logo/name (larger font size, higher font weight */
+
+/* --------------------------- */
+/* Mobile Navigation */
+/* --------------------------- */
+
+/* hide button by default, position on top of all other elements */
+
+/* breakpoint for styling on mobile */
+@media (max-width: 46rem) {
+  /* show button, alter cursor, add padding */
+
+  /* format nav list */
+
+  /* change nav list display value based on data attribute */
+
+  /* set button span to pos relative */
+
+  /* create before & after pseudo elements */
+
+  /* style menu lines */
+
+  /* position top menu line */
+
+  /* position bottom menu line */
+
+  /* active */
+  /* hide button span */
+
+  /* default position for before & after pseudo elements (overlapping in the center of the button) */
+
+  /* rotate top menu line */
+
+  /* rotate bottom menu line */
+}
+
+/* --------------------------- */
+/* About */
+/* --------------------------- */
+
+/* add a background image & radial gradient which covers the section */
+
+/* turn the container into a grid, with a minimum height of 80vh, then place content in the center */
+/* the about has a child div with a class on container, so there must be a space between 'about' & the classname '.container' */
+
+/* use H2 font sizing for the title text */
+
+/* add a max-width and top/bottom padding to the intro text description */
+
+/* style the contact link to look like a button, use auto margins to control the width */
+
+/* style hover & focus states for the contact link */
+
+/* --------------------------- */
+/* Portfolio */
+/* --------------------------- */
+
+/* add top/bottom padding, create a grid, add space between grid items */
+
+/* set the width for portfolio images, use the image border-radius variable created in the root  */
+
+/* turn each portfolio item into a grid, with a gap */
+
+/* add top padding to the portfolio item desc */
+
+/* style tech list to look like inline tag bubbles, add top/bottom padding */
+
+/* style portfolio-item links */
+
+/* style hover & focus states for portfolio-item links */
+
+/* create a breakpoint at 44rem where the .portfolio-item switches from 1 column to 2 columns & gap increases */
+
+/* create a breakpoint at 64rem where the .portfolio-item switches back to one column & the portfolio grid switches from 1 column to 3 columns */
+
+/* Have the section heading span all columns, add a bottom margin */
+
+/* --------------------------- */
+/* Footer */
+/* --------------------------- */
+
+/* turn the footer into a flex box, with content at opposite ends of the container */
+
+/* style footer links */
+
+/* style hover & focus states for footer links */
